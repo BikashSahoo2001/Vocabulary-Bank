@@ -1,0 +1,64 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+div#vocabulary-letters a {
+	background-color: #ededed;
+	height: 35px;
+	line-height: 35px;
+	width: 40px;
+	display: inline-block;
+	text-align: center;
+	margin: 0 10px 5px 0;
+	color: #4f4f4f;
+	border-bottom: 2px solid #dfdfdf;
+	text-transform: uppercase;
+	font-size: 14px;
+}
+div#vocabulary-letters a.active,
+div#vocabulary-letters a:hover{
+	background-color: #0098af;
+	border-bottom: 2px solid #0098af;
+	color: #fff;
+	cursor:pointer;
+}
+div#vocabulary-contents h3.vocabulary-title{
+    color: #f00 !important;
+    font-weight: 900;
+    font-size:20px;
+    text-transform: capitalize;
+    border-bottom: 1px dotted #ccc;
+    display: inline-block;
+	margin-bottom: 2px;
+}
+body.page-id-7953 section#comments {
+    display: none;
+}
+body.page-id-7953 .page-content {
+    margin-left: 0;
+}
+body.page-id-7953 h1.entry-title {
+	color: #000000;
+	font-family: "MuseoSansCyrl", Sans-serif;
+	font-size: 1.5em;
+	font-weight: 900;
+	margin-top: 35px;
+}
+body.page-id-7953{
+    background-color: #F1F1F1;
+}
+body.page-id-7953 .e-con.e-parent .elementor-shortcode {
+	background-color: #FFFFFF;
+	border-radius: 12px 12px 12px 12px;
+	box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.18);
+	padding: 25px;
+	margin-bottom: 55px;
+}
+
+#search-bar {
+	width: 200px;
+	padding: 5px;
+	margin-bottom: 10px;
+	border: 2px solid #000;
+
+}
